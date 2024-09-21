@@ -1,0 +1,40 @@
+.pagination-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  .items-per-page select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pagination-controls button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #f8f9fa;
+    cursor: not-allowed;
+    color: #ccc;
+  }
+  
+  .pagination-controls .page-number {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  

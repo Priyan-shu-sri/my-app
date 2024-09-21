@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    font-size: 32px;
+    color: #d12c50;
+    margin-right: 10px;
+  }
+  
+  .navbar-text h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .navbar-text p {
+    margin: 0;
+    color: gray;
+  }
+  
+  .navbar-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adds space between buttons and search bar */
+  }
+  
+  .navbar-button {
+    background-color: #ffeb99;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-button:hover {
+    background-color: #ffd966;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .navbar-search input {
+    border: none;
+    outline: none;
+    margin-right: 5px;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
